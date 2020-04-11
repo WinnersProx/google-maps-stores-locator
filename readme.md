@@ -1,15 +1,18 @@
-## Design Link
+## Google Maps - Store Locator
 
-https://www.figma.com/file/HuauCfrLa39DV0lK76LLZb/Google-Maps?node-id=0%3A2
+- This is a google maps based north america stores locator
 
-## Google Maps API Key
+## Features
 
-AIzaSyCcwazb-T7zvceyA4VLWVB-eXvwj-XEUIA
+- You can view all stores on the map
+- You can click on a marker to view its details
+- You can search for a store
+- You can click on a store a see it on the map
 
-**WARNING**
-DO NOT SHARE IT WITH ANYONE
+## Contributor
 
-## FontAwesome Link
+Vainqueur Bihame
 
-https://kit.fontawesome.com/c939d0e917.js
+## Reach out!
 
+Email: bihames4vainqueur@gmail.com

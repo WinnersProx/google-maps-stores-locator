@@ -1,6 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500&display=swap');
+
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    height: 100%;
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 1em;
     margin: 0;
     padding: 0;
+}
+
+#map {
+	height: 100vh;
+}
+
+div.search-container {
+	position: absolute;
+    top: 130px;
+    left: 70px;
+}
+div.search-input {
+	width: 300px;
+	height: 40px;
+	background: black;
+	position: relative;
+	border-radius: 20px;
+	display: flex;
+	align-items: center;
+}
+div.search-input input{
+	width: 80%;
+	box-shadow: none;
+	background: transparent;
+	color: white;
+	padding: 0 1em;
+	border: none;
+	height: 100%;
+	font-size: 1em;
+}
+
+.search-input input:focus{
+	box-shadow: none;
+	outline: none;
+}
+
+.search-input i {
+	font-size: 1em;
+	color: white;
+	cursor: pointer;
+}
+
+.stores-container {
+	width: 300px;
+    top: 183px;
+    border-radius: 15px;
+    left: 70px;
+    background: white;
+    position: absolute;
+    bottom: 32px;
+    overflow-y: scroll;
+}
+.stores-list {
+	padding: 1em;
+}
+.store {
+	padding-bottom: .5em;
+	margin-bottom: 1em;
+	border-bottom: .02rem solid #e6e5e5;
+	cursor: pointer;
+}
+
+.store-info {
+	display: flex;
+    justify-content: space-between;
+}
+.store-name {
+	font-weight: bold;
+}
+.address {
+	color: #888282;
+    font-size: .95em;
+}
+.store-count {
+	background: #ea4335;
+    color: white;
+    height: 25px;
+    width: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: .95em;
+}
+
+.text-white {
+	color: #ffffff;
+}
+
+.store-info-window {
+	line-height: 24px;
+}
+.store-info-window i {
+	padding-right: 5px;
+}
+
+.store-info-name {
+	font-weight: bold;
+    color: #ea4335;
+    font-size: 1.1em;
+}
+.store-info-status {
+	color: green;
+}
+.store-info-address, .store-info-phone {
+	display: flex;
+}
+
+.app-description {
+	position: absolute;
+	width: 100%;
+    top: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+.app-description h2 {
+	text-align: center;
+}
+/** Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
 }
